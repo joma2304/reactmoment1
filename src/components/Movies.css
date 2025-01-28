@@ -1,0 +1,41 @@
+.movielist {
+    margin-top: 15px;
+  }
+  
+  .movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+  }
+  
+  .movie:hover {
+    background-color: #7da1dc;
+    transform: scale(1.05); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  /*Små skärmar*/
+  @media (max-width: 800px) {
+    .movie {
+      max-width: 90%;
+    }
+    
+  }
+  /*Stora skärmar*/
+  @media (min-width: 800px) {
+    .movielist {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .movie {
+      width: 30%;
+    }
+  }

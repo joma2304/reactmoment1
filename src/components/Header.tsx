@@ -1,3 +1,4 @@
+import "./Header.css"
 import Title from "./Title";
 import banner from "../assets/banner.jpg"
 import logo from "../assets/logotyp2.png"
