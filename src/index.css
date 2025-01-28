@@ -29,3 +29,7 @@
   width: 100%;
   max-height: 300px;
 }
+
+.movie {
+  border: 2px solid black;
+}
