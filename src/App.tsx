@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Movies from "./components/Movies"
 
@@ -7,7 +8,7 @@ function App() {
     <>
     <Header />
     <Movies />
-
+    <Footer />
     </>
   )
 }
