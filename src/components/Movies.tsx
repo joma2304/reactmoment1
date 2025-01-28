@@ -11,7 +11,7 @@ function Movies() {
         <section className="movielist">
             {
                 movies.map((movie, index) =>(
-                    <div key={index} className="movie">Namn: {movie.movieName} <br /> <br /> Utgiven: {movie.Year} <br /> <br /> Sedd: {movie.Seen} </div>
+                    <div key={index} className="movie">Namn: {movie.movieName} <br /> <br /> Utgiven: {movie.Year} <br /> <br /> Sedd: {movie.Seen ? "Ja" : "Nej"} </div>
                 ))
             }
         </section>

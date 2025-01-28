@@ -30,6 +30,16 @@
   max-height: 300px;
 }
 
+.movielist {
+  margin-top: 15px;
+}
+
 .movie {
+  max-width: 800px;
   border: 2px solid black;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: azure;
 }
