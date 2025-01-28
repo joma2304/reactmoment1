@@ -3,7 +3,7 @@ import "./Movies.css"
 function Movies() {
     //Array med objekt som är olika filmer
     const movies = [
-        { movieName: "Avatar", Year: 2009, Seen: true },
+        { movieName: "Avatar", Year: 2009, Seen: true }, //Namn, utgiven och sedd
         { movieName: "Goodfellas", Year: 1990, Seen: true },
         { movieName: "Pulp Fiction", Year: 1994, Seen: false },
         { movieName: "The Shawshank Redemption", Year: 1994, Seen: true },
@@ -23,5 +23,5 @@ function Movies() {
         </>
     )
 }
-
+//Exportera komponent
 export default Movies;
